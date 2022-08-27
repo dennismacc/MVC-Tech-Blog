@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="../css/all-posts.css">
+
+{{setGlobalVar 'userId' payload.session.userId}}
+
+{{#each payload.posts}}
+   
+    <div class="post-box">
+        <a href="/post/{{id}}">
+            <div class="heading-box">
+                <p>{{title}}</p>
+                <p>Created By: {{user.username}} | {{formatDate createdAt}}</p>
+            </div>
+        </a>
+        <div class="content-box">
+            <p>{{content}}<p>
+        </div>
+        <p>Comments: {{comments.length}}</p>
+        {{#if (isLocalUser currentUserId user.id)}}
+            <a class="edit-btn" href="/dashboard/edit/{{id}}">Edit</a>
+        {{/if}}
+    </div>
+{{/each}}

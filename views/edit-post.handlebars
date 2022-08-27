@@ -1,0 +1,15 @@
+<div id="post-id" data-post-id="{{payload.post.id}}">
+    <h2>Edit Post: </h2>
+    <div>
+        <label for="title">Post Title: </label>
+        <input name="post-title" type="text" value="{{payload.post.title}}" placeholder="Enter Title" id="title-field"/>
+    </div>
+    <div>
+        <label for="content">Content: </label>
+        <textarea name="post-body" type="text" placeholder="Start Here" id="content-field">{{payload.post.content}}</textarea>
+    </div>
+    <button id="submit-btn">Save Changes</button>
+    <button id="delete-btn">Delete Post</button>
+</div>
+
+<script src="/js/edit.js"></script>
