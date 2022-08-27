@@ -11,7 +11,7 @@ router.post('/', async (req, res) => {
 
     if (existingUser) {
       console.log('User already exists');
-      res.status(500).json({ message: 'User already' });
+      res.status(500).json({ message: 'User already exists' });
       return;
     }
 
