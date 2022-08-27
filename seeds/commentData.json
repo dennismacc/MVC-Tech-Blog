@@ -1,0 +1,17 @@
+[
+    {
+        "content": "Looks like a cool new feature to me.",
+        "user_id": 3,
+        "post_id": 1
+    },
+    {
+        "content": "I think I can pass this quiz.",
+        "user_id": 1,
+        "post_id": 2
+    },
+    {
+        "content": "I'm gonna check this out.",
+        "user_id": 2,
+        "post_id": 3
+    }
+]
