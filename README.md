@@ -18,6 +18,8 @@ Tech Blog app allows tech writers to create CMS-style blog sites that publish ar
 Because developers spend a lot of time writing about tech, it’s important for them to have a place to write down their thoughts, which is why CMS-style blog sites such as this are very popular. Tech writers can write about new technologies, recent advancements, and current projects they are working on. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels! This application fulfills this very purpose, it serves as a platform for tech writers to share their thoughts and opinions. The app also follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 ## Preview 📸
+![tech_blog_preview](https://user-images.githubusercontent.com/100378792/194476791-00634a14-5e95-4b45-8e5e-8ddfbf98e58e.jpg)
+
 
 ## Installation 📥
 
